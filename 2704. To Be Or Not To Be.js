@@ -33,7 +33,7 @@ Explanation: 5 !== null so this expression returns true.
 
 /**
  * @param {string} val
- * @return {Object}
+ * @return {Object} obj
  */
 var expect = function(givenValue) {
 
