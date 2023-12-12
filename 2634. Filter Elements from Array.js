@@ -35,6 +35,11 @@ Explanation:
 Falsey values such as 0 should be filtered out
 
 */
+`
+*************************************************************************
+*************SOLUTION of 2634 Filter elements from an Array**************
+************************************************************************
+`
 
 /**
  * @param {number[]} arr
