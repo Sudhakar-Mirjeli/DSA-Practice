@@ -39,7 +39,7 @@ var expect = function(givenValue) {
 
     return {
         toBe(expectedValue){
-            if(givenValue==expectedValue){
+            if(givenValue===expectedValue){
                 return true
             }else{
                 throw new Error("Not Equal")
@@ -47,7 +47,7 @@ var expect = function(givenValue) {
         },
 
         notToBe(expectedValue){
-            if(givenValue!=expectedValue){
+            if(givenValue!==expectedValue){
                 return true
             }else{
                 throw new Error("Not Equal")
